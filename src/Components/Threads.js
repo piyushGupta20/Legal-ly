@@ -29,11 +29,11 @@ function Threads() {
         <div className="flex p-2">
           <img src={User} className="w-10 mx-2" alt="User" />
           <div>
-            <p>Vakil Bot</p>
-            <p className="text-xs">@legal.ly</p>
+            <p>Legal ChatBot</p>
+            <p className="text-xs">@pawan.ly</p>
           </div>
         </div>
-        <div className="flex justify-end p-4">
+        {/* <div className="flex justify-end p-4">
           <img src={darkmode} className="px-4" />
           <Switch
             onChange={handleClick}
@@ -49,7 +49,7 @@ function Threads() {
             className="react-switch"
             id="material-switch"
           />
-        </div>
+        </div> */}
       </div>
       {/* Message Area */}
       <div className="overflow-y-scroll h-[75vh] py-2 px-4 scrollbar scrollbar-thumb-gray-900 scrollbar-h-[2vh] ">

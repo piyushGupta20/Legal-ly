@@ -7,10 +7,15 @@ function Sidebar() {
   return (
     <div className="bg-[#222222] w-[23vw] h-[100vh] text-white ">
       <div className="flex flex-col justify-between h-[98vh]">
-        <img src={Logo} alt="Logo" className="w-[14vw] py-6  mx-auto" />
+        {/* <img src={Logo} alt="Logo" className="w-[14vw] py-6  mx-auto" /> */}
+        <h1 class="text-3xl p-3 font-bold">
+          <span class="bg-clip-text">
+            Legal Consultation system
+          </span>
+        </h1>
         <div className="flex flex-col justify-center  items-center">
           <button className="bg-[#333333] rounded-2xl p-2 w-32 my-3 text-lg">
-            Threads
+            Home
           </button>
 
           <button className="bg-[#333333] rounded-2xl p-2 w-32 m-3 text-lg">
